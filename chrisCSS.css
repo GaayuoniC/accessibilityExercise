@@ -21,3 +21,27 @@ body {
   article {
     max-width: 400px;
   }
+  aside {
+    background-color: azure;
+    border-style: solid;
+    max-width: 150px;
+    padding: 5px;
+    margin-left: 15px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  h3 {
+    font-size: 1.5rem;
+    color: #bbf;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  footer {
+    background-color: #f0f0f0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+  }
