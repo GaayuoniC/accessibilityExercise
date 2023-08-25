@@ -16,5 +16,8 @@ body {
   nav ol {
     list-style-type: none;
     display: flex;
-    gap: 10em;
+    gap: 4em;
+  }
+  article {
+    max-width: 400px;
   }
