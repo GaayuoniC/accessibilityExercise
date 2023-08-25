@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessible website</title>
+    <link rel="stylesheet" href="/chrisCSS.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header" style="display: flex">
+        <img
+          src="./man-with-glasses.jpeg"
+          style="width: 100px; margin-right: 50"
+        />
+        <h1>My not so accessible website</h1>
+      </div>
+      <div class="nav">
+        <nav>
+          <ol>
+            <span onClick="() => (window.location = '#importantThing')">
+              <li>Link to an important topic</li>
+            </span>
+            <span onClick="() => (window.location = '#lessImportantThing')">
+              <li>Link to another topic</li>
+            </span>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <main></main>
+    <footer>No rights reserved. Leave no one behind!</footer>
+  </body>
+</html>
