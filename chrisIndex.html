@@ -11,6 +11,7 @@
       <div class="header" style="display: flex">
         <img
           src="./man-with-glasses.jpeg"
+          alt="A man wearing glasses and a hat and looking to the right"
           style="width: 100px; margin-right: 50"
         />
         <h1>My not so accessible website</h1>
@@ -18,12 +19,12 @@
       <div class="nav">
         <nav>
           <ol>
-            <span onClick="() => (window.location = '#importantThing')">
+            <a onClick="() => (window.location = '#importantThing')">
               <li>Link to an important topic</li>
-            </span>
-            <span onClick="() => (window.location = '#lessImportantThing')">
+            </a>
+            <a onClick="() => (window.location = '#lessImportantThing')">
               <li>Link to another topic</li>
-            </span>
+            </a>
           </ol>
         </nav>
       </div>
@@ -70,7 +71,7 @@
           I am your friendly chat bot. Talk or type to me
           <br />
           <br />
-          <button>
+          <button aria-label="Start Chat">
             <img src="./Screenshot 2023-08-25 at 13.46.55.png" width="50%" />
           </button>
         </aside>
