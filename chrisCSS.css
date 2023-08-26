@@ -63,7 +63,7 @@ body {
   }
   h3 {
     font-size: 1.5rem;
-    color: #bbf;
+    color:#122A57;
     margin-top: 15px;
     margin-bottom: 10px;
   }
@@ -71,10 +71,11 @@ body {
   button {
     font-weight: bold;
     border-radius: var(--border-radius);
-    color: white;
-    background-color: black;
-    height: -7px;
-    width: 8px;
+    color: black;
+    background-color: white;
+    /* height: -7px;
+    width: 8px; */
+    padding: 6px;
   }
   button:hover {
     background-color: yellow;
