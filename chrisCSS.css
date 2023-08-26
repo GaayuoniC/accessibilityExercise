@@ -37,6 +37,7 @@ body {
   nav ol {
     list-style-type: none;
     display: flex;
+    flex-direction: row;
     gap: 4em;
     color: #2129FF;
   }
@@ -57,7 +58,7 @@ a:hover{
   }
   aside {
     position: absolute;
-    bottom: 1em;
+    bottom: 5em;
     right: 0.1em;
     background-color: azure;
     border-style: solid;
@@ -69,6 +70,7 @@ a:hover{
   }
   main {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     /* position: relative; */
     justify-content: center;
@@ -114,5 +116,21 @@ a:hover{
     font-weight: bold;
 
   }
+
+  @media only screen and (max-width:600px){
+    body {
+        background-color:lightgreen;
+    }
+    nav ol {
+        flex-direction: column;
+        gap: 10px;
+    }
+    aside {
+        position: relative;
+        bottom: 0;
+    }
+  
+  }
+
 
  
