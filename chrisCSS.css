@@ -58,7 +58,7 @@ a:hover{
   }
   aside {
     position: absolute;
-    bottom: 5em;
+    bottom: 20em;
     right: 0.1em;
     background-color: azure;
     /* background-color: red; */
@@ -66,7 +66,7 @@ a:hover{
     max-width: 150px;
     padding: 5px;
     margin-left: 15px;
-    height: 400px;
+    height: 30em;
 
   }
   main {
@@ -130,6 +130,9 @@ a:hover{
         position: relative;
         bottom: 0;
       
+    }
+    p {
+      margin-bottom: 2em;
     }
   
   }
