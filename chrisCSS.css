@@ -1,0 +1,141 @@
+
+:root{
+    --border-radius:8px;
+    --border:2px solid black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 15px;
+    font-size: 0.9rem;
+    color: #122A57;
+    background-color: #00DBCB;
+    line-height: 1.5;
+    letter-spacing:1.5px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  header h1 {margin-left: 1em;}
+  h1 {
+    font-size: 2.5rem;
+    color:  #122A57;
+  }
+  header img {
+    border: var(--border);
+  }
+  nav {
+    background-color: #f0f0f0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: var(--border);
+    
+
+  }
+  nav ol {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    color: #2129FF;
+  }
+a {
+    text-decoration: none;
+    padding: 8px;
+    font-weight: bold;
+}
+a:hover{
+    color: #5A2FFF;
+}
+/* a:visited{
+    color:green
+} */
+
+  article {
+    max-width: 400px;
+  }
+  aside {
+    position: absolute;
+    bottom: 20em;
+    right: 0.1em;
+    background-color: azure;
+    /* background-color: red; */
+    border-style: solid;
+    max-width: 150px;
+    padding: 5px;
+    margin-left: 15px;
+    height: 30em;
+
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* position: relative; */
+    justify-content: center;
+  }
+  .container-1 {
+    position: relative;
+    right: 2em;
+  }
+  h2 {
+    padding: 10px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    color:#122A57;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+  }
+ 
+  button {
+    font-weight: bold;
+    border-radius: var(--border-radius);
+    color: black;
+    background-color: white;
+    /* height: -7px;
+    width: 8px; */
+    padding: 6px;
+  }
+  button:hover {
+    background-color: yellow;
+  }
+  input {
+    border: var(--border);
+  }
+  footer {
+    background-color: #f0f0f0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: var(--border);
+    color:#2129FF;
+    font-weight: bold;
+
+  }
+
+  @media only screen and (max-width:600px){
+    body {
+        background-color:lightgreen;
+    }
+    nav ol {
+        flex-direction: column;
+        gap: 10px;
+    }
+    aside {
+        position: relative;
+        bottom: 0;
+      
+    }
+    p {
+      margin-bottom: 2em;
+    }
+  
+  }
+
+
+ 

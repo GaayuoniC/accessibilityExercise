@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessible website</title>
+    <link rel="stylesheet" href="/chrisCSS.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header" style="display: flex">
+        <img
+          src="./man-with-glasses.jpeg"
+          alt="A man wearing glasses and a hat and looking to the right"
+          style="width: 100px; margin-right: 50"
+        />
+        <h1>My not so accessible website</h1>
+      </div>
+      <div class="nav">
+        <nav>
+          <ol>
+            <li>
+              <a
+                href="https://digital-strategy.ec.europa.eu/en/policies/web-accessibility"
+                target="_blank"
+                >Link to an important topic
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.tooltester.com/en/blog/accessible-websites/"
+                target="_blank"
+                >Link to another topic</a
+              >
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <h2 id="importantThing">A very important thing</h2>
+
+      <article>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </p>
+      </article>
+      <h2 id="lessImportantThing">And less important is this</h2>
+      <article>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </article>
+      <h2>Think of a friend every day</h2>
+      <section>
+        <form action="">
+          <label for="friendName">Enter Friend's Name</label>
+          <input type="text" id="friendName" required />
+          <br />
+          <br />
+          <label for="friendBirthDate">Enter Friend's Date of Birth</label>
+
+          <input type="text" id="friendBirthDate" required />
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <article>
+        <h2>Be more user friendly</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+          quis dolorum repudiandae tempora assumenda sint a ad eveniet maxime
+          velit debitis aliquid in, nihil exercitationem quae eum reiciendis
+          omnis laborum neque facere optio. Iure eius, provident ipsa minima
+          aspernatur tenetur sed perferendis cupiditate voluptates eum modi
+          eaque laborum ipsum magnam.
+        </p>
+      </article>
+      <div class="container-1">
+        <aside>
+          <h3>Chat bot</h3>
+          I am your friendly chat bot. Talk or type to me
+          <br />
+          <br />
+          <button aria-label="Start Chat">
+            <img src="./Screenshot 2023-08-25 at 13.46.55.png" width="50%" />
+          </button>
+        </aside>
+      </div>
+    </main>
+    <footer>No rights reserved. Leave no one behind!</footer>
+  </body>
+</html>
